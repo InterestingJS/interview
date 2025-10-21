@@ -34,7 +34,6 @@ const reducer = (state: State, action: Action) => {
         selectedEvent: action.selectedEvent,
       }
     case 'edit_value':
-      // slice mon tableau cu
       return {}
     default:
       return state
